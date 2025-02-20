@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Marcellus&family=Pacifico&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cus-stroke {
+  -webkit-text-stroke: 1px #b8967e;
+  color: transparent;
+}
+
+
+.heroSection {
+  background-image: linear-gradient(
+      to right,
+      rgba(19, 22, 31, 0.9) 50%,
+      rgb(50, 51, 55, 0),
+      rgb(49, 48, 53)
+    ),
+    url("./assets/images/heroImage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #090b1e;
+}
+.isNavbarScrolledClass{
+  background-color: #FDFCFB;
+  color: #B8967E;
+}
+.gradientColor {
+  background-image: linear-gradient(
+    to right,
+    rgb(19, 21, 30),
+    rgb(50, 51, 55, 0)
+  );
+}
+
+@font-face {
+  font-family: "ArchivoNarrow-Bold";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/ArchivoNarrow-Bold.ttf") format("truetype");
+}
+
+/* ArchivoNarrow-BoldItalic.ttf */
+@font-face {
+  font-family: "ArchivoNarrow-BoldItalic";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../fonts/ArchivoNarrow-BoldItalic.ttf") format("truetype");
+}
+
+/* ArchivoNarrow-Italic.ttf */
+@font-face {
+  font-family: "ArchivoNarrow-Italic";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/ArchivoNarrow-Italic.ttf") format("truetype");
+}
+
+/* ArchivoNarrow-Medium.ttf */
+@font-face {
+  font-family: "ArchivoNarrow-Medium";
+  font-weight: medium;
+  font-style: normal;
+  src: url("../fonts/ArchivoNarrow-Medium.ttf") format("truetype");
+}
+
+/* ArchivoNarrow-MediumItalic.ttf */
+@font-face {
+  font-family: "ArchivoNarrow-MediumItalic";
+  font-weight: medium;
+  font-style: italic;
+  src: url("../fonts/ArchivoNarrow-MediumItalic.ttf") format("truetype");
+}
+
+/* ArchivoNarrow-Regular.ttf */
+@font-face {
+  font-family: "ArchivoNarrow-Regular";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/ArchivoNarrow-Regular.ttf") format("truetype");
+}
+
+/* ArchivoNarrow-SemiBold.ttf */
+@font-face {
+  font-family: "ArchivoNarrow-SemiBold";
+  font-weight: semibold;
+  font-style: normal;
+  src: url("../fonts/ArchivoNarrow-SemiBold.ttf") format("truetype");
+}
+
+/* ArchivoNarrow-SemiBoldItalic.ttf */
+@font-face {
+  font-family: "ArchivoNarrow-SemiBoldItalic";
+  font-weight: semibold;
+  font-style: italic;
+  src: url("../fonts/ArchivoNarrow-SemiBoldItalic.ttf") format("truetype");
+}
+
+/* Define @font-face rules for Gogh fonts */
+
+/* Gogh Black Italic */
+@font-face {
+  font-family: "Gogh-BlackItalic";
+  src: url("/fonts/Gogh-BlackItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Gogh Bold */
+@font-face {
+  font-family: "Gogh-Bold";
+  src: url("/fonts/Gogh-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Gogh Bold Italic */
+@font-face {
+  font-family: "Gogh-BoldItalic";
+  src: url("/fonts/Gogh-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Gogh Book */
+@font-face {
+  font-family: "Gogh-Book";
+  src: url("/fonts/Gogh-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Gogh Book Italic */
+@font-face {
+  font-family: "Gogh-BookItalic";
+  src: url("/fonts/Gogh-BookItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Gogh Extra Bold */
+@font-face {
+  font-family: "Gogh-ExtraBold";
+  src: url("/fonts/Gogh-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Gogh Extra Bold Italic */
+@font-face {
+  font-family: "Gogh-ExtraBoldItalic";
+  src: url("/fonts/Gogh-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Gogh Hairline */
+@font-face {
+  font-family: "Gogh-Hairline";
+  src: url("/fonts/Gogh-Hairline.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Gogh Hairline Italic */
+@font-face {
+  font-family: "Gogh-HairlineItalic";
+  src: url("/fonts/Gogh-HairlineItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Gogh Heavy */
+@font-face {
+  font-family: "Gogh-Heavy";
+  src: url("/fonts/Gogh-Heavy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Gogh Heavy Italic */
+@font-face {
+  font-family: "Gogh-HeavyItalic";
+  src: url("/fonts/Gogh-HeavyItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Gogh Light */
+@font-face {
+  font-family: "Gogh-Light";
+  src: url("/fonts/Gogh-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Gogh Light Italic */
+@font-face {
+  font-family: "Gogh-LightItalic";
+  src: url("/fonts/Gogh-LightItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Gogh Medium */
+@font-face {
+  font-family: "Gogh-Medium";
+  src: url("/fonts/Gogh-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Gogh Medium Italic */
+@font-face {
+  font-family: "Gogh-MediumItalic";
+  src: url("/fonts/Gogh-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Gogh Regular */
+@font-face {
+  font-family: "Gogh-Regular";
+  src: url("/fonts/Gogh-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Gogh Regular Italic */
+@font-face {
+  font-family: "Gogh-RegularItalic";
+  src: url("/fonts/Gogh-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Gogh Thin */
+@font-face {
+  font-family: "Gogh-Thin";
+  src: url("/fonts/Gogh-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Gogh Thin Italic */
+@font-face {
+  font-family: "Gogh-ThinItalic";
+  src: url("/fonts/Gogh-ThinItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Gogh Black */
+@font-face {
+  font-family: "Gogh-Black";
+  src: url("/fonts/goghblack.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes leafMovement {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(30px); /* Adjust the distance as needed */
+  }
+}
+
+.moving-leaf {
+  animation: leafMovement 4s linear infinite;
+}
+
+@keyframes leafFlip {
+  0%,
+  100% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(45deg); /* Adjust the flip angle as needed */
+  }
+}
+
+.flipping-leaf {
+  animation: leafFlip 2s linear infinite alternate; /* Alternate between the two keyframes */
+}
+
